@@ -12,7 +12,7 @@ public class NGOgrupp16
     {
         try
         {
-            idb = new InfDB("ngo_2024", "3306", "root", "pr79hxwf");
+            idb = new InfDB("ngo_2024", "3306", "dbAdmin2024", "dbAdmin2024PW");
             new Inloggning(idb).setVisible(true);
         } 
         catch(InfException ex)
